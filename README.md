@@ -23,9 +23,9 @@ The essence of this program is that it monitors the driver and turns it on when 
 
 ### Installation
 Move the executable `DolbyFIX.exe` to the folder with the Dolby Digital Plus driver and run it.
-For convenience, you can make a `.vb` script to run in the background and place it in the auto download.
+For convenience, you can make a `.vbs` script to run in the background and place it in the auto download.
 
-```vb
+```vbs
 Set WshShell = CreateObject("WScript.Shell")
 WshShell.Run "DolbyFIX.exe", 0, false
 ```
